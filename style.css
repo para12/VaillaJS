@@ -5,3 +5,40 @@ h1 {
 body {
   background-color: #e67e22;
 }
+
+.name_input{
+  background-color: #e67e22;
+  border : none;
+  color : white;
+  outline : none;
+
+}
+
+.name_input::placeholder {
+  color : white;
+
+}
+
+.hello_text_button {
+  background-color: #e67e22;
+  border: none;
+  color: #2c3e50;
+}
+
+.hello_text_container{
+  display : flex;
+  position : absolute;
+}
+
+.hello_text{
+ margin :0;
+}
+
+.hello{
+  position : relative;
+}
+
+
+.hide {
+  display : none;
+}
