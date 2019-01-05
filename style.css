@@ -6,7 +6,7 @@ body {
   background-color: #e67e22;
 }
 
-.name_input{
+.name_input, .todo_input{
   background-color: #e67e22;
   border : none;
   color : white;
@@ -14,12 +14,12 @@ body {
 
 }
 
-.name_input::placeholder {
+.name_input::placeholder, .todo_input::placeholder {
   color : white;
 
 }
 
-.hello_text_button {
+.hello_text_button, button{
   background-color: #e67e22;
   border: none;
   color: #2c3e50;
@@ -27,7 +27,6 @@ body {
 
 .hello_text_container{
   display : flex;
-  position : absolute;
 }
 
 .hello_text{
@@ -35,10 +34,16 @@ body {
 }
 
 .hello{
-  position : relative;
+  /* position : relative; */
 }
 
 
 .hide {
   display : none;
+}
+
+
+.list{
+  text-decoration : none;
+  list-style : none;
 }
